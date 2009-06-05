@@ -1,0 +1,62 @@
+#slider {
+  margin: 0 auto;
+  position: relative;
+}
+
+.scroll {
+  overflow: auto;
+  overflow-x:hidden;
+  position: relative; /* fix for IE to respect overflow */
+  clear: left;
+  background: #FFFFFF;
+}
+.scrollContainer div.panel {
+  padding: 0;
+}
+.scrollButtons {
+	cursor:pointer;
+}
+ul.navigation {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+	
+}
+
+ul.navigation li {
+    display: inline;
+    margin-right: 10px;
+	
+}
+
+ul.navigation a {
+    padding: 10px;
+    color: #666;
+    text-decoration: none;
+}
+
+ul.navigation a:hover {
+    background-color: #f6f6f6;
+}
+
+ul.navigation a.selected {
+    background-color: #fff;
+	color:black;
+}
+
+ul.navigation a:focus {
+    outline: none;
+}
+.scrollButtons {
+    position: absolute;
+    top: 200px;
+    cursor: pointer;
+}
+
+.scrollButtons.left {
+    left: -25px;
+}
+
+.scrollButtons.right {
+    right: -25px;
+}

@@ -1,0 +1,19 @@
+plugin.tx_tan3glider_pi1 {
+	includeJQuery = 1
+	pathToCSS = EXT:tan3_glider/res/glider.css
+	arrowLeft = EXT:tan3_glider/res/arrow_left.png
+	arrowRight = EXT:tan3_glider/res/arrow_right.png
+	warnings = 1
+	width = 600
+	height = 400
+	navigation.wrap = <ul class="navigation">|</ul>
+	navigation.link.wrap = <li>|</li>
+	slider.wrap = <div id="slider">|</div>
+	scrollarea.wrap (
+		  <div class="scroll">
+		    <div class="scrollContainer">
+			|
+			</div>
+		</div>
+	)
+}
