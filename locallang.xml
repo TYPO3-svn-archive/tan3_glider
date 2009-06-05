@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for extension 'tan3_glider'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="pi1_title">Glider</label>
+			<label index="pi1_plus_wiz_description">Adds a Glider with Content Elements</label>
+	<!-- Flexforms -->
+			<label index="flexform.sheets.general.title">Settings</label>      
+			<label index="flexform.sheets.general.contentElements">Content Elements only</label>
+			<label index="flexform.sheets.general.description">Title of Navigation Tabs</label> 
+
+			<label index="flexform.sheets.general.width">Width of glider</label>
+			<label index="flexform.sheets.general.height">Height of glider</label>
+
+			<label index="flexform.sheets.general.tabs">Show Tab Navigation</label>
+			<label index="flexform.sheets.general.arrows">Show Arrow Navigation</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="pi1_title">Glider</label>
+			<label index="pi1_plus_wiz_description">Fügt einen Glider mit Inhaltselementen hinzu</label>
+	<!-- Flexforms -->
+			<label index="flexform.sheets.general.title">Einstellungen</label>      
+			<label index="flexform.sheets.general.contentElements">Inhaltselemente</label>
+			<label index="flexform.sheets.general.description">Title der Reiternavigation</label> 
+
+			<label index="flexform.sheets.general.width">Breite des Gliders</label>
+			<label index="flexform.sheets.general.height">Höhe des Gliders</label>
+
+			<label index="flexform.sheets.general.tabs">Reiternavigation zeigen</label>
+			<label index="flexform.sheets.general.arrows">Pfeilnavigation zeigen</label>
+		</languageKey>
+	</data>
+</T3locallang>
